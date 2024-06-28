@@ -1,0 +1,52 @@
+[
+  {
+    "year": 2022,
+    "marijuana_hashish": 669,
+    "narcotics": 5671,
+    "depressants": 141,
+    "stimulants": 477,
+    "hallucinogens": 140,
+    "other_drugs": 942,
+    "unknown_type_drug": 192
+  },
+  {
+    "year": 2021,
+    "marijuana_hashish": 691,
+    "narcotics": 6645,
+    "depressants": 197,
+    "stimulants": 548,
+    "hallucinogens": 158,
+    "other_drugs": 1046,
+    "unknown_type_drug": 174
+  },
+  {
+    "year": 2020,
+    "marijuana_hashish": 690,
+    "narcotics": 5664,
+    "depressants": 178,
+    "stimulants": 422,
+    "hallucinogens": 107,
+    "other_drugs": 990,
+    "unknown_type_drug": 156
+  },
+  {
+    "year": 2019,
+    "marijuana_hashish": 835,
+    "narcotics": 6649,
+    "depressants": 215,
+    "stimulants": 358,
+    "hallucinogens": 96,
+    "other_drugs": 1013,
+    "unknown_type_drug": 127
+  },
+  {
+    "year": 2018,
+    "marijuana_hashish": 871,
+    "narcotics": 6769,
+    "depressants": 235,
+    "stimulants": 293,
+    "hallucinogens": 88,
+    "other_drugs": 997,
+    "unknown_type_drug": 123
+  }
+]

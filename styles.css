@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%; /* Ensures the body takes the full height of the viewport */
+    box-sizing: border-box; /* Includes padding and border in the element's width and height */
+}
+
+.section, .quote-container, blockquote {
+    opacity: 0; /* Start elements as invisible */
+    transition: opacity 1s ease-in-out; /* Smooth transition for opacity change */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; /* Minimum height to take up the full viewport height */
+    text-align: center;
+}
+
+.section.visible, .quote-container.visible, blockquote.visible {
+    opacity: 1; /* Full visibility when in view */
+}
+
+.text-content, .chart-container {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-content {
+    flex: 1; /* Takes 1 part of the space */
+    max-width: 33.33%; /* Maximum of 1/3 of the parent container's width */
+}
+
+.chart-container {
+    flex: 1; /* Takes 2 parts of the space */
+    max-width: 66.66%; /* Maximum of 2/3 of the parent container's width */
+    display: flex;
+    justify-content: center; /* Centers the chart horizontally in the chart container */
+    align-items: center; /* Centers the chart vertically in the chart container */
+}
+
+canvas {
+    width: 100% !important; /* Forces the canvas to take up all available width */
+    max-width: 100%; /* Prevents the canvas from exceeding the container's width */
+    height: auto !important; /* Adjust height automatically based on width to maintain aspect ratio */
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2em; /* Larger font size for readability */
+    width: 60%; /* Control the width of the quote */
+    padding: 20px;
+    border-left: 5px solid #02B59B;
+}
+
+blockquote footer {
+    text-align: right;
+    font-style: normal;
+    font-size: 0.8em;
+    margin-top: 8px;
+}
+
+header, footer {
+    background-color: #FF6C30;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+#d3-chart-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#d3-tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 1px solid #666;
+    border-radius: 4px;
+    pointer-events: none; /* Let mouse events pass through */
+    opacity: 0; /* Start invisible */
+    transition: opacity 0.4s ease-in-out;
+}
+#orCrimeWaffleContainer svg {
+    margin: 2px;
+    border: none;
+    display: inline-block;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h1, section h2 {
+    color: #333;
+}

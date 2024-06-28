@@ -1,0 +1,34 @@
+[
+  {
+    "year": 2020,
+    "dui": 14,
+    "total_crime": 240,
+    "property": 21,
+    "violence_assault": 6,
+    "other": 213
+  },
+  {
+    "year": 2021,
+    "dui": 6,
+    "total_crime": 140,
+    "property": 8,
+    "violence_assault": 2,
+    "other": 130
+  },
+  {
+    "year": 2022,
+    "dui": 9,
+    "total_crime": 129,
+    "property": 11,
+    "violence_assault": 7,
+    "other": 111
+  },
+  {
+    "year": 2023,
+    "dui": 9,
+    "total_crime": 116,
+    "property": 6,
+    "violence_assault": 0,
+    "other": 110
+  }
+]
